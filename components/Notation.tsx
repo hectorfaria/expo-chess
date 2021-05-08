@@ -5,7 +5,7 @@ import { Vector } from 'react-native-redash';
 const { width } = Dimensions.get('window');
 export const SIZE = width / 8;
 
-export const toTranslation = (to : any) => {
+export const toTranslation = (to: any) => {
   'worklet';
   // worklet don't support destructuring yet
   const tokens = to.split('');
